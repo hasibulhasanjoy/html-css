@@ -47,6 +47,25 @@ p {
 li {
   font-size: 20px;
 }
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  font-weight: bold;
+}
+
 .related-post {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
