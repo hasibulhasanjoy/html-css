@@ -36,6 +36,15 @@ li {
   font-size: 20px;
 }
 
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#related-post--list {
+  list-style: none;
+}
+
 footer p {
   font-size: 18px;
 }
