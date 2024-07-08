@@ -58,27 +58,27 @@ p {
   width: 20px;
   height: 20px;
 }
-.red {
+.color-red {
   background-color: #ff0000;
 }
 
-.black {
+.color-black {
   background-color: #000;
 }
 
-.green {
+.color-green {
   background-color: #00ff00;
 }
 
-.yellow {
+.color-yellow {
   background-color: #ffff00;
 }
 
-.blue {
+.color-blue {
   background-color: #0000ff;
 }
 
-.brown {
+.color-brown {
   background-color: #a52a2a;
 }
 
