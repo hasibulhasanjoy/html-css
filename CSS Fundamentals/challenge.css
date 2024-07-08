@@ -35,6 +35,39 @@ p {
   margin-bottom: 10px;
 }
 
+.color-option {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.square {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.red {
+  background-color: #ff0000;
+}
+
+.black {
+  background-color: #000;
+}
+
+.green {
+  background-color: #00ff00;
+}
+
+.yellow {
+  background-color: #ffff00;
+}
+
+.blue {
+  background-color: #0000ff;
+}
+
+.brown {
+  background-color: #a52a2a;
+}
+
 a:link,
 a:visited {
   color: #000;
@@ -62,8 +95,8 @@ li:last-child {
   margin-bottom: 0;
 }
 .add-to-cart {
-  background-color: #444;
-  color: #f7f7f7;
+  background-color: #000;
+  color: #fff;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
@@ -73,7 +106,7 @@ li:last-child {
   width: 100%;
 }
 .add-to-cart:hover {
-  color: #444;
-  background-color: #f7f7f7;
+  color: #000;
+  background-color: #fff;
   border-top: 4px solid #000;
 }
