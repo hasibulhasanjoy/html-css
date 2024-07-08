@@ -5,6 +5,7 @@
 
 body {
   margin-left: 5px;
+  position: relative;
 }
 
 h1,
@@ -109,6 +110,7 @@ a:active {
 }
 
 .related-post {
+  width: 1200px;
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
@@ -123,6 +125,15 @@ a:active {
 
 #related-post--list {
   list-style: none;
+}
+
+.btn-like {
+  width: 70px;
+  height: 50px;
+  padding: 0 5px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
 footer p {
