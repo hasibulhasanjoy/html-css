@@ -103,7 +103,6 @@ ul {
 }
 li {
   font-size: 20px;
-  margin-left: 50px;
   margin-bottom: 10px;
 }
 li:last-child {
@@ -148,11 +147,16 @@ a:active {
 }
 .related-author {
   font-size: 18px;
-  font-weight: bold;
 }
 
 #related-post--list {
   list-style: none;
+}
+
+.related-list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .btn-like {
