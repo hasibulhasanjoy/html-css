@@ -7,4 +7,64 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #343a40;
+  line-height: 1;
+  font-size: 18;
+}
+
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.items {
+  padding: 24px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+.hidden-box {
+  display: none;
+  grid-column: 2;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #085f5b;
+}
+
+.heading-number,
+.heading-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #555656;
+}
+.body-text {
+  margin-bottom: 12px;
+}
+
+.items ul {
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.open .hidden-box {
+  display: block;
+}
+
+.open .heading-number,
+.open .heading-text {
+  color: #085f5b;
+}
+
+.open {
+  border-top: 4px solid #085f5b;
 }
