@@ -68,6 +68,25 @@ body {
 }
 
 .btn-icon {
-  stroke: #74c0fc;
+  stroke: #0a64f9;
   width: 40px;
+}
+.dots {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 32px);
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  border: 2px solid #0a64f9;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.dot--fill {
+  background-color: #0a64f9;
 }
