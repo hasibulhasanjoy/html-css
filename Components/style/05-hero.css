@@ -11,14 +11,12 @@ html {
 .container {
   margin: 0 auto;
   width: 1200px;
-  /* border: 1px solid #000; */
   border-collapse: collapse;
 }
 
 header {
   height: 100vh;
   color: #fff;
-  /* background-color: orangered; */
   background-image: linear-gradient(
       rgba(31, 31, 31, 0.6),
       rgba(31, 31, 31, 0.6)
@@ -37,7 +35,6 @@ nav {
 }
 .header-container {
   width: 1200px;
-  /* border: 1px solid #000; */
   position: absolute;
   left: 50%;
   top: 50%;
@@ -46,7 +43,6 @@ nav {
 
 .header-container--inner {
   width: 50%;
-  /* border: 1px solid white; */
 }
 
 h1 {
@@ -56,6 +52,7 @@ h1 {
 p {
   font-size: 20px;
   line-height: 1.6;
+  margin-bottom: 16px;
 }
 
 .btn:link,
