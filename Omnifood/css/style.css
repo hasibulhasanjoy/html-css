@@ -75,6 +75,29 @@ body {
 /* General and Reusable component */
 /*********************/
 
+.container--centered {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid !important;
+  gap: 9.6rem;
+}
+
+.grid--2-column {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.grid--3-column {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+.grid--4-column {
+  grid-template-columns: repeat(4, 1fr) !important;
+}
+
 .margin-right-small {
   margin-right: 1.6rem !important;
 }
