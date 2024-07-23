@@ -83,7 +83,8 @@ body {
 
 .grid {
   display: grid !important;
-  gap: 9.6rem;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
 }
 
 .grid-centered--vertically {
