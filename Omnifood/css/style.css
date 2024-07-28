@@ -460,11 +460,12 @@
   line-height: 1.8;
 }
 
+/*********************/
 /* CTA Section */
 /*********************/
 
 .section-cta {
-  padding: 9.6rem;
+  padding: 4.8rem 0 12.8rem;
 }
 
 .cta {
@@ -546,4 +547,91 @@
     url("../img/eating.jpg");
   background-size: cover;
   position: center;
+}
+
+/*********************/
+/* footer Section */
+/*********************/
+
+.footer {
+  padding: 12.8rem;
+  border-top: 1px solid #eee;
+}
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-logo {
+  list-style: none;
+  display: flex;
+  gap: 2.4em;
+}
+
+.social-link {
+  display: block;
+}
+
+.social-icon {
+  height: 2.4em;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #767676;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.address {
+  font-size: 1.6rem;
+  font-style: normal;
+  color: #767676;
+  margin-bottom: 3.2rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .footer-link {
+  display: block;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.social-link:active,
+.social-link:visited,
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #767676;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
 }
