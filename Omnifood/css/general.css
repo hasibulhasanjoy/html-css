@@ -118,6 +118,10 @@ body {
   grid-template-columns: repeat(4, 1fr) !important;
 }
 
+.grid--5-column {
+  grid-template-columns: repeat(5, 1fr) !important;
+}
+
 .margin-right-small {
   margin-right: 1.6rem !important;
 }
