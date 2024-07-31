@@ -109,7 +109,7 @@ body {
 }
 
 .grid--2-column {
-  grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3-column {
@@ -121,7 +121,7 @@ body {
 }
 
 .grid--5-column {
-  grid-template-columns: repeat(5, 1fr) !important;
+  grid-template-columns: repeat(5, 1fr) ;
 }
 
 .margin-right-small {
