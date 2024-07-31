@@ -91,6 +91,9 @@
   .gallery {
     grid-template-columns: repeat(6, 1fr);
   }
+  .price-plan {
+    width: 85%;
+  }
   .cta {
     grid-template-columns: 3fr 2fr;
   }
@@ -148,5 +151,39 @@
 
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
+  }
+}
+
+/******************/
+/* smaller tablet */
+/****************/
+
+@media (max-width: 44em) {
+  html {
+    font-size: 43.75%;
+  }
+  .grid--3-column,
+  .grid--4-column {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diet {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .price-plan {
+    width: 100%;
+  }
+
+  .grid-footer {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .nav-column {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+  .logo-column,
+  .address-column {
+    grid-column: span 3;
   }
 }
