@@ -21,7 +21,6 @@ links.forEach((link) => {
   ) {
     link.addEventListener("click", (e) => {
       e.preventDefault();
-      console.log(link);
       const targetSection = link.getAttribute("href");
       let targetSectionElement = "";
       if (targetSection != "#") {
