@@ -25,6 +25,8 @@
   align-items: center;
   gap: 4rem;
   list-style: none;
+  opacity: 1;
+  transition: all 1.1s;
 }
 
 .main-nav-link:link,

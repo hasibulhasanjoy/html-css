@@ -218,3 +218,7 @@ body {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
+
+.fade-out {
+  opacity: 0.5;
+}

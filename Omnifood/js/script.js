@@ -10,6 +10,31 @@ const sectionCTA = document.querySelector("#cta");
 const btnCTA = document.querySelector(".btn--full");
 const btnLearnMore = document.querySelector(".btn--outline");
 const links = document.querySelectorAll("a:link");
+const navLinks = document.querySelector(".main-nav-list");
+
+// menu fade effect //
+
+const addEffect = function (e) {
+  console.log(this);
+  e.preventDefault();
+  if (e.target.classList.contains("main-nav-link")) {
+    const targetLink = e.target;
+    const siblings = targetLink
+      .closest(".main-nav-list")
+      .querySelectorAll(".main-nav-link");
+    siblings.forEach((sibling) => {
+      if (sibling.classList.contains("nav-cta")) {
+        return;
+      }
+      if (sibling != targetLink) {
+        sibling.classList.toggle(this);
+      }
+    });
+  }
+};
+
+navLinks.addEventListener("mouseover", addEffect.bind("fade-out"));
+navLinks.addEventListener("mouseout", addEffect.bind("fade-out"));
 
 // smooth scrolling //
 links.forEach((link) => {
