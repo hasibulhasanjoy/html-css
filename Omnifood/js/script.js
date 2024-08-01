@@ -33,8 +33,8 @@ const addEffect = function (e) {
   }
 };
 
-navLinks.addEventListener("mouseover", addEffect.bind("fade-out"));
-navLinks.addEventListener("mouseout", addEffect.bind("fade-out"));
+navLinks.addEventListener("mouseover", addEffect.bind("fade-in-out"));
+navLinks.addEventListener("mouseout", addEffect.bind("fade-in-out"));
 
 // smooth scrolling //
 links.forEach((link) => {
